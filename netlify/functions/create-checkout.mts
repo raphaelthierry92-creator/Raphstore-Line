@@ -62,7 +62,7 @@ export default async (req: Request) => {
 
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) return json({ error: 'Paiement non configuré.' }, 500);
-  const PRICES = key.startsWith('sk_live_') ? LIVE_PRICES : TEST_PRICES;
+  const PRICES = key.includes('_live_') ? LIVE_PRICES : TEST_PRICES;
 
   let body: any;
   try {
