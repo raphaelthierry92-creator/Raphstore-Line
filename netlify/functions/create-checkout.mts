@@ -80,7 +80,8 @@ export default async (req: Request) => {
   const params = new URLSearchParams();
   params.append('mode', 'payment');
   params.append('locale', 'fr');
-  params.append('phone_number_collection[enabled]', 'true');
+  params.append('phone_number_collection[enabled]', 'true');  params.append('allow_promotion_codes', 'true');
+
   EU_COUNTRIES.forEach((c, i) =>
     params.append(`shipping_address_collection[allowed_countries][${i}]`, c),
   );
