@@ -277,6 +277,19 @@
   .feature h3 { font-size: 1rem; margin: 0 0 8px; font-weight: 700; }
   .feature p { margin: 0; color: var(--muted); font-size: 0.94rem; }
 
+  /* ---------- Infos légales ---------- */
+  .legal { padding: 56px 0; }
+  .legal details { border-bottom: 1px solid var(--border); padding: 4px 0; }
+  .legal summary { cursor: pointer; font-weight: 700; padding: 14px 0; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  .legal summary::-webkit-details-marker { display: none; }
+  .legal summary::after { content: '+'; color: var(--accent); font-weight: 700; }
+  .legal details[open] summary::after { content: '\2212'; }
+  .legal .legal-body { color: var(--muted); font-size: 0.93rem; padding: 0 0 16px; max-width: 760px; }
+  .legal .legal-body p { margin: 0 0 10px; }
+  .legal .legal-body ul { margin: 0 0 10px; padding-left: 20px; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.84rem; }
+  .footer-links a, .catalogue-note a { color: var(--muted); text-decoration: underline; }
+
   /* ---------- Footer ---------- */
   footer {
     border-top: 1px solid var(--border);
@@ -390,7 +403,7 @@
       Nouveau — Raphstore.line
     </div>
     <h1>L'électronique, sans complications.</h1>
-    <p class="lead">Téléphones, ordinateurs, écouteurs et accessoires sélectionnés — commandés simplement, livrés où que vous soyez.</p>
+    <p class="lead">Téléphones, ordinateurs, écouteurs et accessoires sélectionnés — commandés simplement, livrés gratuitement partout dans l'Union européenne.</p>
     <div class="hero-ctas">
       <a href="#catalogue" class="btn-primary">Voir le catalogue</a>
       <a href="#pourquoi" class="btn-ghost">Comment ça marche</a>
@@ -401,11 +414,11 @@
 <section id="catalogue">
   <div class="wrap">
     <div class="section-head">
-      <h2>Nos catégories</h2>
-      <p>Un aperçu de ce qui arrive sur Raphstore.line. Les prix affichés sont des points de départ, à affiner catégorie par catégorie.</p>
+      <h2>Catalogue</h2>
+      <p>Articles d'occasion vérifiés, photographiés tels quels. Livraison gratuite dans toute l'UE et retours sous 14 jours.</p>
     </div>
     <div class="grid" id="catalogueGrid"></div>
-    <p class="catalogue-note">Catalogue détaillé (modèles, photos, stock) en cours de mise en ligne — cette page présente les catégories et les prix de départ.</p>
+    <p class="catalogue-note">Une question sur un article ? Écrivez-nous à <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a>.</p>
   </div>
 </section>
 
@@ -435,10 +448,63 @@
   </div>
 </section>
 
+<section class="legal" id="infos">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Informations</h2>
+      <p>Livraison, retours, conditions de vente et données personnelles.</p>
+    </div>
+
+    <details id="livraison">
+      <summary>Livraison et retours</summary>
+      <div class="legal-body">
+        <p><strong>Livraison gratuite</strong> dans les 27 pays de l'Union européenne. L'adresse de livraison est saisie au moment du paiement. La commande est expédiée après confirmation du paiement ; un e-mail vous informe de l'envoi.</p>
+        <p><strong>Retours sous 14 jours</strong> à compter de la réception. Pour retourner un article, écrivez à <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a> en indiquant votre numéro de commande. L'article doit être renvoyé dans l'état où il a été reçu, avec ses accessoires.</p>
+        <p>Le remboursement est effectué sur le moyen de paiement utilisé, au plus tard 14 jours après réception de l'article retourné. Les frais de retour sont à la charge du client, sauf si l'article est défectueux ou ne correspond pas à sa description.</p>
+      </div>
+    </details>
+
+    <details id="cgv">
+      <summary>Conditions générales de vente</summary>
+      <div class="legal-body">
+        <p>Les articles proposés sur Raphstore.line sont vendus par Raphael Thierry, particulier résidant en Espagne. Ce sont des produits d'occasion, vendus en exemplaire unique, dans l'état décrit et photographié sur le site.</p>
+        <p>Les prix sont indiqués en euros, livraison comprise, sans frais supplémentaires. Le paiement s'effectue par carte bancaire via Stripe, prestataire de paiement sécurisé. La vente est conclue à la confirmation du paiement.</p>
+        <p>Si un article s'avère défectueux ou non conforme à sa description, contactez-nous à <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a> : il sera échangé ou remboursé. Pour toute réclamation, une solution amiable sera recherchée en priorité.</p>
+      </div>
+    </details>
+
+    <details id="confidentialite">
+      <summary>Confidentialité et données personnelles</summary>
+      <div class="legal-body">
+        <p>Les données collectées lors d'une commande (nom, e-mail, téléphone, adresse de livraison) servent uniquement à traiter et livrer la commande et à vous contacter à son sujet. Elles ne sont ni vendues ni cédées à des tiers.</p>
+        <p>Le paiement est traité par Stripe : vos données bancaires ne sont jamais transmises ni stockées par Raphstore.line. Ce site n'utilise pas de cookies publicitaires ni d'outil de suivi.</p>
+        <p>Conformément au RGPD, vous pouvez demander l'accès, la rectification ou la suppression de vos données en écrivant à <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a>.</p>
+      </div>
+    </details>
+
+    <details id="mentions">
+      <summary>Mentions légales</summary>
+      <div class="legal-body">
+        <p><strong>Responsable du site :</strong> Raphael Thierry, particulier, résidant en Espagne.<br>
+        <strong>Contact :</strong> <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a></p>
+        <p><strong>Hébergement :</strong> Netlify, Inc., 512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis.<br>
+        <strong>Paiements :</strong> Stripe Payments Europe, Ltd., Dublin, Irlande.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
 <footer id="contact">
   <div class="wrap footer-row">
     <div class="logo">Raphstore<span class="dot">.</span>line</div>
-    <p>© 2026 Raphstore.line — Projet indépendant, en cours de lancement.</p>
+    <div class="footer-links">
+      <a href="mailto:Raphstoreline@gmail.com">Raphstoreline@gmail.com</a>
+      <a href="#livraison">Livraison et retours</a>
+      <a href="#cgv">CGV</a>
+      <a href="#confidentialite">Confidentialité</a>
+      <a href="#mentions">Mentions légales</a>
+    </div>
+    <p>© 2026 Raphstore.line</p>
   </div>
 </footer>
 
@@ -450,7 +516,7 @@
   </div>
   <div class="drawer-items" id="drawerItems"></div>
   <div class="drawer-foot">
-    <div class="drawer-msg" id="drawerMsg">Le paiement en ligne arrive bientôt sur Raphstore.line — repassez dès que Stripe sera connecté !</div>
+    <div class="drawer-msg" id="drawerMsg"></div>
     <div class="drawer-total"><span>Total</span><span id="drawerTotal">0,00&nbsp;€</span></div>
     <button class="checkout-btn" id="checkoutBtn">Commander</button>
   </div>
@@ -492,7 +558,7 @@
     card.innerHTML = `
       ${visual}
       <h3>${cat.name}</h3>
-      <div class="price"><small>à partir de</small>${fmt(cat.price)}</div>
+      <div class="price">${cat.image ? '' : '<small>à partir de</small>'}${fmt(cat.price)}</div>
       <button class="add-btn" data-id="${cat.id}">Ajouter au panier</button>
     `;
     grid.appendChild(card);
@@ -594,6 +660,13 @@
     showMsg('Paiement annulé — votre panier a été conservé.');
     openDrawer();
   }
+
+  function openInfo() {
+    const el = location.hash && document.querySelector(location.hash);
+    if (el && el.tagName === 'DETAILS') el.open = true;
+  }
+  window.addEventListener('hashchange', openInfo);
+  openInfo();
 
   renderCart();
 </script>
