@@ -23,7 +23,8 @@ const TEST_PRICES: Record<string, string> = {
   a53: 'price_1UMGBoFVsWQ4jKiFgU87I8iV',
   redminote13: 'price_1UMGBgFVsWQ4jKiFV8Ohu2ik',
   tabA8: 'price_1UMGDpFVsWQ4jKiFIWItZbRx',
-  hp14: 'price_1UMGElFVsWQ4jKiFYGDqtp7z',
+  hp14: 'price_1UMGElFVsWQ4jKiFYGDqtp7z',  thinkplus: 'price_1UMNVMFVsWQ4jKiFknMTgvwK',
+
 };
 
 const LIVE_PRICES: Record<string, string> = {
@@ -45,7 +46,8 @@ const LIVE_PRICES: Record<string, string> = {
   a53: 'price_1UMIsnFAAzBsA0FOoDCq5Wak',
   redminote13: 'price_1UMIsrFAAzBsA0FORMweCFnS',
   tabA8: 'price_1UMIsvFAAzBsA0FOd4eLCXUm',
-  hp14: 'price_1UMIt0FAAzBsA0FOsakRq1VD',
+  hp14: 'price_1UMIt0FAAzBsA0FOsakRq1VD',  thinkplus: 'price_1UMNVPFAAzBsA0FOPqnJIfNh',
+
 };
 
 // Livraison : pays de l'Union européenne
