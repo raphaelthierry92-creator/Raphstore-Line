@@ -1,0 +1,211 @@
+[
+ {
+  "id": "smartphones",
+  "name": "Smartphones",
+  "price": 199.99,
+  "cat": "smartphones",
+  "images": [],
+  "unique": false,
+  "icon": "M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z M11 19h2"
+ },
+ {
+  "id": "telephones",
+  "name": "Téléphones",
+  "price": 49.99,
+  "cat": "telephones",
+  "images": [],
+  "unique": false,
+  "icon": "M6 3h9l3 3v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z M8 7h6 M8 11h6 M8 15h3"
+ },
+ {
+  "id": "ecouteurs",
+  "name": "Écouteurs",
+  "price": 29.99,
+  "cat": "audio",
+  "images": [],
+  "unique": false,
+  "icon": "M4 13v-2a8 8 0 0 1 16 0v2 M4 13a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1z M20 13a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z"
+ },
+ {
+  "id": "lunettes",
+  "name": "Lunettes électriques",
+  "price": 49.99,
+  "cat": "lunettes",
+  "images": [],
+  "unique": false,
+  "icon": "M3 12a4 4 0 1 0 8 0 4 4 0 1 0-8 0z M13 12a4 4 0 1 0 8 0 4 4 0 1 0-8 0z M7 8V6a2 2 0 0 1 2-2h1 M17 8V6a2 2 0 0 1-2-2h-1"
+ },
+ {
+  "id": "accessoires",
+  "name": "Accessoires",
+  "price": 9.99,
+  "cat": "accessoires",
+  "images": [],
+  "unique": false,
+  "icon": "M7 8h10 M9 4v4 M15 4v4 M6 12h12v4a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4z"
+ },
+ {
+  "id": "ordinateurs",
+  "name": "Ordinateurs",
+  "price": 499.99,
+  "cat": "ordinateurs",
+  "images": [],
+  "unique": false,
+  "icon": "M4 5h16a1 1 0 0 1 1 1v9H3V6a1 1 0 0 1 1-1z M1 19h22l-2-3H3z"
+ },
+ {
+  "id": "montres",
+  "name": "Montres connectées",
+  "price": 89.99,
+  "cat": "montres",
+  "images": [],
+  "unique": false,
+  "icon": "M8 6h8v4l-2 2 2 2v4H8v-4l2-2-2-2z M9 3h6v3H9z M9 18h6v3H9z"
+ },
+ {
+  "id": "reflex",
+  "name": "Appareil photo reflex + objectif",
+  "price": 150.0,
+  "cat": "photo",
+  "etat": "Occasion",
+  "images": [
+   "/photo-reflex.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "bridge",
+  "name": "Appareil photo bridge + accessoires",
+  "price": 150.0,
+  "cat": "photo",
+  "etat": "Occasion",
+  "images": [
+   "/photo-bridge.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "iphone13",
+  "name": "iPhone 13 rouge",
+  "price": 143.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-iphone13.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "iphone15",
+  "name": "iPhone 15 noir 128 Go",
+  "price": 330.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-iphone15.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "iphone14",
+  "name": "iPhone 14 rouge",
+  "price": 340.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-iphone14.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "tabletteA7",
+  "name": "Tablette Galaxy Tab A7",
+  "price": 230.0,
+  "cat": "tablettes",
+  "etat": "Occasion",
+  "images": [
+   "/photo-tabletteA7.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "note20",
+  "name": "Samsung Galaxy Note 20 Ultra + stylet S Pen",
+  "price": 150.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-note20.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "a15",
+  "name": "Samsung Galaxy A15",
+  "price": 99.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-a15.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "a53",
+  "name": "Samsung Galaxy A53 blanc",
+  "price": 166.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-a53.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "redminote13",
+  "name": "Xiaomi Redmi Note 13",
+  "price": 120.0,
+  "cat": "smartphones",
+  "etat": "Occasion",
+  "images": [
+   "/photo-redminote13.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "tabA8",
+  "name": "Tablette Samsung Galaxy Tab A8",
+  "price": 110.0,
+  "cat": "tablettes",
+  "etat": "Occasion",
+  "nouveau": true,
+  "images": [
+   "/photo-tabA8.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "hp14",
+  "name": "Ordinateur portable HP 14",
+  "price": 110.0,
+  "cat": "ordinateurs",
+  "etat": "Occasion",
+  "nouveau": true,
+  "images": [
+   "/photo-hp14.jpg"
+  ],
+  "unique": true
+ },
+ {
+  "id": "thinkplus",
+  "name": "Écouteurs sans fil Lenovo thinkplus rose",
+  "price": 3.0,
+  "cat": "audio",
+  "etat": "Occasion",
+  "nouveau": true,
+  "images": [
+   "/photo-thinkplus.jpg"
+  ],
+  "unique": true
+ }
+]
